@@ -21,6 +21,7 @@
     "react-dom": "^18.2.0",
     "react-geolocated": "^4.1.0",
     "react-helper": "^5.0.1",
+    "react-router-dom": "^6.14.2",
     "react-scripts": "5.0.1",
     "styled-components": "^6.0.3",
     "tailwindcss-safe-area": "^0.3.0",
