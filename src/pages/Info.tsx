@@ -70,21 +70,72 @@ const Info: React.FC = () => {
           </div>
           <h1 className="text-white font-bold text-xl">Schedule</h1>
           <div className="py-5 w-4/5 mx-auto rounded-md h-[55%] bg-[#EBEBEB] shadow-lg">
-            <div className="flex flex-col items-center justify-center w-[95%] gap-1 mx-auto">
-              <div className="text-md">00:00น. - 09:00น. : &nbsp; home</div>
-              <div className="text-md">09:01น. - 09:20น. : &nbsp; path</div>
-              <div className="text-md">09:21น. - 09:35น. : &nbsp; path</div>
-              <div className="text-md">09:36น. - 9:57น. : &nbsp; path</div>
-              <div className="text-md">09:58น. - 10:12น. : &nbsp; path</div>
-              <div className="text-md">10:13น. - 11:14น. : &nbsp; office</div>
-              <div className="text-md">11:14น. - 12:23น. : &nbsp; office</div>
-              <div className="text-md">12:24น. - 13:30น. : &nbsp; path</div>
-              <div className="text-md">13:30น. - 17:51น. : &nbsp; office</div>
-              <div className="text-md">13:30น. - 17:51น. : &nbsp; office</div>
-              <div className="text-md">13:30น. - 17:51น. : &nbsp; office</div>
-              <div className="text-md">17:52น. - 18:30น. : &nbsp; path</div>
-              <div className="text-md">18:31น. - 21:20น. : &nbsp; home</div>
-              <div className="text-md">. . .</div>
+            <div className="flex flex-col items-start w-[95%] gap-1 mx-auto">
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">00:00น. - 09:00น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Home</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">09:01น. - 09:20น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">09:21น. - 09:35น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">09:36น. - 09:57น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">09:58น.  - 10:12น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">10:13น.  - 11:14น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Werehouse</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">11:14น.  - 12:23น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Werehouse</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">12:24น.  - 13:30น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">13:30น.  - 17:51น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Werehouse</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">13:30น.  - 17:51น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Werehouse</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">13:30น.  - 17:51น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Werehouse</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">17:52น.  - 18:30น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Path</div>
+              </div>
+              <div className="flex flex-rol justify-between w-2/3">
+                <div className="text-md">18:31น.  - 21:20น.</div>
+                <div className="text-md">:</div>
+                <div className="text-md">Home</div>
+              </div>
             </div>
           </div>
         </div>
