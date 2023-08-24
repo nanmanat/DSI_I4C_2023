@@ -31,7 +31,6 @@ const Info: React.FC = () => {
       </div>
       <div className="fixed right-0 top-0 w-1/3 h-full bg-[#5F224A] shadow-lg">
         <div className="h-full flex flex-col justify-center items-center gap-5">
-          <h1 className="text-white font-bold text-xl">Confidence Level</h1>
           <div className="py-5 w-4/5 rounded-md bg-[#EBEBEB] shadow-lg">
             <div className="flex w-[95%] mx-auto">
               <div className="w-[70%] flex items-center gap-5 ml-[5%]">
@@ -70,7 +69,7 @@ const Info: React.FC = () => {
           </div>
           <h1 className="text-white font-bold text-xl">Schedule</h1>
           <div className="py-5 w-4/5 mx-auto rounded-md h-[55%] bg-[#EBEBEB] shadow-lg">
-            <div className="flex flex-col items-start w-[95%] gap-1 mx-auto">
+            <div className="flex flex-col items-center w-[95%] gap-1 mx-auto">
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">00:00น. - 09:00น.</div>
                 <div className="text-md">:</div>
