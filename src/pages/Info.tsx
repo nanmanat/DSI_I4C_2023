@@ -1,14 +1,32 @@
-import React from "react";
+import React, { useEffect } from "react";
 import logo from "./logo.svg";
 import "../App.css";
 import GMap from "../Map";
 
 const Info: React.FC = () => {
+  const [showLightGreenMarkers, setShowLightGreenMarkers] = React.useState(false);
+  const [showRedZoneMarkers, setShowRedZone] = React.useState(false);
+  const [showOtherMarkers, setShowOtherMarkers] = React.useState(false);
+
+  const handleToggleCheckbox = () => {
+    setShowLightGreenMarkers(!showLightGreenMarkers);
+  };
+  const handleToggleCheckboxRZ = () => {
+    setShowRedZone(!showRedZoneMarkers);
+  };
+  const handleToggleCheckboxOT = () => {
+    setShowOtherMarkers(!showOtherMarkers);
+  };
+
+  useEffect(() => {
+
+  }, [showLightGreenMarkers, showRedZoneMarkers, showOtherMarkers]);
+
   return (
     <div className="relative flex">
       <div className="w-full">
         <div className="fixed w-2/3 h-full shadow-lg">
-          <GMap />
+          <GMap showLightGreenMarkers={showLightGreenMarkers} showRedZoneMarkers={showRedZoneMarkers} showOtherMarkers={showOtherMarkers} />
         </div>
       </div>
       <div className="fixed right-0 top-0 w-1/3 h-full bg-[#5F224A] shadow-lg">
@@ -17,29 +35,36 @@ const Info: React.FC = () => {
           <div className="py-5 w-4/5 rounded-md bg-[#EBEBEB] shadow-lg">
             <div className="flex w-[95%] mx-auto">
               <div className="w-[70%] flex items-center gap-5 ml-[5%]">
+                <input
+                  type="checkbox"
+                  checked={showLightGreenMarkers}
+                  onChange={handleToggleCheckbox}
+                />
                 <div className="h-[10px] w-[10px] bg-[#8BCE1D] rounded-sm shadow-sm" />
-                <div>path</div>
-              </div>
-              <div className="w-[30%] pl-[15%]">
-                <div>30 %</div>
+                <div>Path</div>
               </div>
             </div>
             <div className="flex w-[95%] mx-auto">
               <div className="w-[70%] flex items-center gap-5 ml-[5%]">
+                <input
+                  type="checkbox"
+                  checked={showOtherMarkers}
+                  onChange={handleToggleCheckboxOT}
+                />
                 <div className="h-[10px] w-[10px] bg-[#e6c243] rounded-sm shadow-sm" />
-                <div>home</div>
-              </div>
-              <div className="w-[30%] pl-[15%]">
-                <div>40 %</div>
+
+                <div>Werehouse</div>
               </div>
             </div>
             <div className="flex w-[95%] mx-auto">
               <div className="w-[70%] flex items-center gap-5 ml-[5%]">
+                <input
+                  type="checkbox"
+                  checked={showRedZoneMarkers}
+                  onChange={handleToggleCheckboxRZ}
+                />
                 <div className="h-[10px] w-[10px] bg-[#ff3131] rounded-sm shadow-sm" />
-                <div>office</div>
-              </div>
-              <div className="w-[30%] pl-[15%]">
-                <div>90 %</div>
+                <div>Home</div>
               </div>
             </div>
           </div>
