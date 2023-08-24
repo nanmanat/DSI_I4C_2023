@@ -53,7 +53,7 @@ const Info: React.FC = () => {
                 />
                 <div className="h-[10px] w-[10px] bg-[#e6c243] rounded-sm shadow-sm" />
 
-                <div>Werehouse</div>
+                <div>Warehouse</div>
               </div>
             </div>
             <div className="flex w-[95%] mx-auto">
@@ -99,12 +99,12 @@ const Info: React.FC = () => {
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">10:13น.  - 11:14น.</div>
                 <div className="text-md">:</div>
-                <div className="text-md">Werehouse</div>
+                <div className="text-md">Warehouse</div>
               </div>
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">11:14น.  - 12:23น.</div>
                 <div className="text-md">:</div>
-                <div className="text-md">Werehouse</div>
+                <div className="text-md">Warehouse</div>
               </div>
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">12:24น.  - 13:30น.</div>
@@ -114,17 +114,17 @@ const Info: React.FC = () => {
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">13:30น.  - 17:51น.</div>
                 <div className="text-md">:</div>
-                <div className="text-md">Werehouse</div>
+                <div className="text-md">Warehouse</div>
               </div>
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">13:30น.  - 17:51น.</div>
                 <div className="text-md">:</div>
-                <div className="text-md">Werehouse</div>
+                <div className="text-md">Warehouse</div>
               </div>
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">13:30น.  - 17:51น.</div>
                 <div className="text-md">:</div>
-                <div className="text-md">Werehouse</div>
+                <div className="text-md">Warehouse</div>
               </div>
               <div className="flex flex-rol justify-between w-2/3">
                 <div className="text-md">17:52น.  - 18:30น.</div>
